@@ -1,0 +1,813 @@
+Sucesso! 200 casos de teste carregados da memória.
+--- Solucionador de Sudoku SEQUENCIAL (Sudokus 9x9) ---
+
+--- Exibindo Teste de Índice 1 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 2 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 3 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 4 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 5 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 6 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 7 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 8 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 9 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 10 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 11 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 12 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 13 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 14 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 15 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 16 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 17 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 18 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 19 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 20 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 21 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 22 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 23 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 24 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 25 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 26 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 27 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 28 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 29 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 30 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 31 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 32 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 33 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 34 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 35 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 36 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 37 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 38 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 39 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 40 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 41 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 42 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 43 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 44 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 45 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 46 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 47 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 48 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 49 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 50 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 51 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 52 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 53 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 54 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 55 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 56 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 57 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 58 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 59 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 60 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 61 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 62 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 63 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 64 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 65 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 66 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 67 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 68 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 69 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 70 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 71 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 72 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 73 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 74 (Sequencial) ---
+Dificuldade: Facil
+Solucao correta!
+
+--- Exibindo Teste de Índice 75 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 76 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 77 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 78 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 79 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 80 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 81 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 82 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 83 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 84 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 85 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 86 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 87 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 88 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 89 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 90 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 91 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 92 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 93 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 94 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 95 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 96 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 97 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 98 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 99 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 100 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 101 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 102 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 103 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 104 (Sequencial) ---
+Dificuldade: Medio
+Solucao correta!
+
+--- Exibindo Teste de Índice 105 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 106 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 107 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 108 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 109 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 110 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 111 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 112 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 113 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 114 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 115 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 116 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 117 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 118 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 119 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 120 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 121 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 122 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 123 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 124 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 125 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 126 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 127 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 128 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 129 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 130 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 131 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 132 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 133 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 134 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 135 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 136 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 137 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 138 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 139 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 140 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 141 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 142 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 143 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 144 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 145 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 146 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 147 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 148 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 149 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 150 (Sequencial) ---
+Dificuldade: Dificil
+Solucao correta!
+
+--- Exibindo Teste de Índice 151 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 152 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 153 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 154 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 155 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 156 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 157 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 158 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 159 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 160 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 161 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 162 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 163 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 164 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 165 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 166 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 167 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 168 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 169 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 170 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 171 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 172 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 173 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 174 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 175 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 176 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 177 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 178 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 179 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 180 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 181 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 182 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 183 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 184 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 185 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 186 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 187 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 188 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 189 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 190 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 191 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 192 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 193 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 194 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 195 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 196 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 197 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 198 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 199 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Exibindo Teste de Índice 200 (Sequencial) ---
+Dificuldade: Extremo
+Solucao correta!
+
+--- Estatísticas de Desempenho ---
+Solucoes corretas: 200 de 200
+Tempo total: 10.523613453 segundos
+Tempo médio total: 0.052618067 segundos
+Tempo médio (Fácil): 0.086530156 segundos
+Tempo médio (Médio): 0.044740672 segundos
+Tempo médio (Difícil): 0.021914897 segundos
+Tempo médio (Extremo): 0.057286544 segundos
+
+Tempos médios sequenciais salvos em 'seq_results.bin'

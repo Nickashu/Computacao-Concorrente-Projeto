@@ -1,0 +1,1211 @@
+Sucesso! 200 casos de teste carregados da memória.
+--- Solucionador de Sudoku CONCORRENTE (Sudokus 9x9) ---
+
+--- Teste de Indice 1 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 2 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 3 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 4 (Concorrente) ---
+Dificuldade: Facil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 5 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 6 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 7 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 8 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 9 (Concorrente) ---
+Dificuldade: Facil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 10 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 11 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 12 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 13 (Concorrente) ---
+Dificuldade: Facil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 14 (Concorrente) ---
+Dificuldade: Facil
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 15 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 16 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 17 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 18 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 19 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 20 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 21 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 22 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 23 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 24 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 25 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 26 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 27 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 28 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 29 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 30 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 31 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 32 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 33 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 34 (Concorrente) ---
+Dificuldade: Facil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 35 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 36 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 37 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 38 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 39 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 40 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 41 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 42 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 43 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 44 (Concorrente) ---
+Dificuldade: Facil
+1 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 45 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 46 (Concorrente) ---
+Dificuldade: Medio
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 47 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 48 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 49 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 50 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 51 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 52 (Concorrente) ---
+Dificuldade: Facil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 53 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 54 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 55 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 56 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 57 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 58 (Concorrente) ---
+Dificuldade: Facil
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 59 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 60 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 61 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 62 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 63 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 64 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 65 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 66 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 67 (Concorrente) ---
+Dificuldade: Medio
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 68 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 69 (Concorrente) ---
+Dificuldade: Facil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 70 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 71 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 72 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 73 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 74 (Concorrente) ---
+Dificuldade: Facil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 75 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 76 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 77 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 78 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 79 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 80 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 81 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 82 (Concorrente) ---
+Dificuldade: Medio
+7 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 83 (Concorrente) ---
+Dificuldade: Medio
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 84 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 85 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 86 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 87 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 88 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 89 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 90 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 91 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 92 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 93 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 94 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 95 (Concorrente) ---
+Dificuldade: Medio
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 96 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 97 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 98 (Concorrente) ---
+Dificuldade: Medio
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 99 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 100 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 101 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 102 (Concorrente) ---
+Dificuldade: Medio
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 103 (Concorrente) ---
+Dificuldade: Medio
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 104 (Concorrente) ---
+Dificuldade: Medio
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 105 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 106 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 107 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 108 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 109 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 110 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 111 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 112 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 113 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 114 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 115 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 116 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 117 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 118 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 119 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 120 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 121 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 122 (Concorrente) ---
+Dificuldade: Dificil
+7 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 123 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 124 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 125 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 126 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 127 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 128 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 129 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 130 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 131 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 132 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 133 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 134 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 135 (Concorrente) ---
+Dificuldade: Dificil
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 136 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 137 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 138 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 139 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 140 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 141 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 142 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 143 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 144 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 145 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 146 (Concorrente) ---
+Dificuldade: Dificil
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 147 (Concorrente) ---
+Dificuldade: Dificil
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 148 (Concorrente) ---
+Dificuldade: Dificil
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 149 (Concorrente) ---
+Dificuldade: Dificil
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 150 (Concorrente) ---
+Dificuldade: Dificil
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 151 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 152 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 153 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 154 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 155 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 156 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 157 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 158 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 159 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 160 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 161 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 162 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 163 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 164 (Concorrente) ---
+Dificuldade: Extremo
+7 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 165 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 166 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 167 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 168 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 169 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 170 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 171 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 172 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 173 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 174 (Concorrente) ---
+Dificuldade: Extremo
+2 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 175 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 176 (Concorrente) ---
+Dificuldade: Extremo
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 177 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 178 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 179 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 180 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 181 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 182 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 183 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 184 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 185 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 186 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 187 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 188 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 189 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 190 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 191 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 192 (Concorrente) ---
+Dificuldade: Extremo
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 193 (Concorrente) ---
+Dificuldade: Extremo
+6 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 194 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 195 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 196 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 197 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 198 (Concorrente) ---
+Dificuldade: Extremo
+3 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 199 (Concorrente) ---
+Dificuldade: Extremo
+5 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Teste de Indice 200 (Concorrente) ---
+Dificuldade: Extremo
+4 threads de trabalho criadas. Aguardando conclusao...
+Todas as threads terminaram.
+Solucao correta!
+
+--- Estatísticas de Desempenho ---
+Solucoes corretas: 200 de 200
+Tempo total: 6.168782473 segundos
+Tempo médio total: 0.030843912 segundos
+Tempo médio (Fácil): 0.042176456 segundos
+Tempo médio (Médio): 0.025638990 segundos
+Tempo médio (Difícil): 0.020213056 segundos
+Tempo médio (Extremo): 0.035347147 segundos
