@@ -3,7 +3,7 @@
 #include <pthread.h>
 #include <string.h>
 #include "timer.h"
-#include "aux.h"
+#include "auxiliar.h"
 #include <time.h>
 
 // Define o tamanho do grid

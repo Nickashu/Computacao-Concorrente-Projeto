@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "timer.h"
-#include "aux.h"
+#include "auxiliar.h"
 
 //Tamanho do grid
 #define SIZE 9
