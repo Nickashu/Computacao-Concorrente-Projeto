@@ -12,7 +12,7 @@ void print_grid(int **grid, int size) {
     }
 }
 
-/*
+
 //Procura por uma célula vazia (valor 0). Retorna 1 se encontrou, 0 se o grid está cheio
 int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col) {
     for (*row = 0; *row < size; (*row)++) {
@@ -23,35 +23,60 @@ int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col)
     }
     return 0;
 }
-*/
+
+
+/*
 //Procura por uma célula vazia (valor 0) usando heurística MRV. Retorna 1 se encontrou, 0 se o grid está cheio
 int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col) {
-    int min_possibilities = size + 1;  // Inicializa com um valor maior que o máximo possível
     int found_empty = 0;
-    
-    // Percorre o grid procurando a célula vazia com menos possibilidades
+    int best_any = size + 1;
+    int best_any_r = -1, best_any_c = -1;
+    int best_ge2 = size + 1;
+    int best_ge2_r = -1, best_ge2_c = -1;
+
+    //Percorre o grid procurando a célula vazia com menos possibilidades (MRV), mas preferindo uma célula que permita >=2 chutes quando possível.
     for (int r = 0; r < size; r++) {
         for (int c = 0; c < size; c++) {
             if (grid[r][c] == 0) {
                 found_empty = 1;
-                // Conta quantos números são válidos para esta célula
+                //Conta quantos números são válidos para esta célula
                 int possibilities = 0;
                 for (int num = 1; num <= size; num++) {
                     if (is_valid(grid, size, size_sub_grid, r, c, num)) {
                         possibilities++;
                     }
                 }
-                // Se encontramos uma célula com menos possibilidades, atualiza
-                if (possibilities < min_possibilities) {
-                    min_possibilities = possibilities;
-                    *row = r;
-                    *col = c;
+
+                //Guarda melhor MRV geral
+                if (possibilities < best_any) {
+                    best_any = possibilities;
+                    best_any_r = r;
+                    best_any_c = c;
+                }
+
+                //Guarda melhor célula com um mínimo de possibilidades
+                if (possibilities >= 8 && possibilities < best_ge2) {
+                    best_ge2 = possibilities;
+                    best_ge2_r = r;
+                    best_ge2_c = c;
                 }
             }
         }
     }
-    return found_empty;
+
+    if (!found_empty) return 0;
+
+    //if (best_ge2_r >= 0) {
+    //    *row = best_ge2_r;
+    //    *col = best_ge2_c;
+    //} else {
+        *row = best_any_r;
+        *col = best_any_c;
+    //}
+
+    return 1;
 }
+*/
 
 //Verifica se um número é válido em uma dada posição
 int is_valid(int **grid, int size, int size_sub_grid, int row, int col, int num) {

@@ -5,8 +5,8 @@
 #include "auxiliar.h"
 
 //Tamanho do grid
-#define SIZE 9
-#define SUBGRID_SIZE 3
+#define SIZE 16
+#define SUBGRID_SIZE 4
 //#define LOG_RESULTS   //Comentar para desativar o log dos resultados detalhados
 
 //Solucionador Sequencial (Backtracking)
