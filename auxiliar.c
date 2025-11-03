@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "aux.h"
+#include "auxiliar.h"
 
 //Funções Auxiliares
 //Imprimir o grid
@@ -12,8 +12,9 @@ void print_grid(int **grid, int size) {
     }
 }
 
+/*
 //Procura por uma célula vazia (valor 0). Retorna 1 se encontrou, 0 se o grid está cheio
-int find_empty_cell(int **grid, int size, int *row, int *col) {
+int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col) {
     for (*row = 0; *row < size; (*row)++) {
         for (*col = 0; *col < size; (*col)++) {
             if (grid[*row][*col] == 0)    //Ao sair dessa função, row e col apontarão para a primeira célula vazia encontrada
@@ -21,6 +22,35 @@ int find_empty_cell(int **grid, int size, int *row, int *col) {
         }
     }
     return 0;
+}
+*/
+//Procura por uma célula vazia (valor 0) usando heurística MRV. Retorna 1 se encontrou, 0 se o grid está cheio
+int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col) {
+    int min_possibilities = size + 1;  // Inicializa com um valor maior que o máximo possível
+    int found_empty = 0;
+    
+    // Percorre o grid procurando a célula vazia com menos possibilidades
+    for (int r = 0; r < size; r++) {
+        for (int c = 0; c < size; c++) {
+            if (grid[r][c] == 0) {
+                found_empty = 1;
+                // Conta quantos números são válidos para esta célula
+                int possibilities = 0;
+                for (int num = 1; num <= size; num++) {
+                    if (is_valid(grid, size, size_sub_grid, r, c, num)) {
+                        possibilities++;
+                    }
+                }
+                // Se encontramos uma célula com menos possibilidades, atualiza
+                if (possibilities < min_possibilities) {
+                    min_possibilities = possibilities;
+                    *row = r;
+                    *col = c;
+                }
+            }
+        }
+    }
+    return found_empty;
 }
 
 //Verifica se um número é válido em uma dada posição
@@ -81,7 +111,7 @@ int load_test_cases(TestCase** test_cases_ptr, int size) {
 
     //Contar quantas linhas (testes) existem
     int test_count = 0;
-    char buffer[256]; //Buffer grande para ler uma linha
+    char buffer[4096];  //Buffer grande para ler uma linha do arquivo de teste
     while (fgets(buffer, sizeof(buffer), fp)) {
         test_count++;
     }
@@ -106,21 +136,21 @@ int load_test_cases(TestCase** test_cases_ptr, int size) {
     char puzzle_str[size * size + 2];
     char solution_str[size * size + 2];
     float difficulty;
+    int num_tips;
 
     char sscanf_format[100]; // Buffer para a string de formato dinâmica
     int grid_chars = size * size;
 
-    sprintf(sscanf_format, "%%%d[^;];%%%d[^;];%%f;", grid_chars, grid_chars);  //sprintf funciona como printf, mas salva a string em uma variável
-
-    //sscanf_format conterá algo como "%81[^;];%81[^;];%f;" se size for 9 ou "%256[^;];%256[^;];%f;" se size for 16.
+    sprintf(sscanf_format, "%%%d[^;];%%%d[^;];%%f;%%d", grid_chars, grid_chars);  //sprintf funciona como printf, mas salva a string em uma variável
+    //sscanf_format conterá algo como "%81[^;];%81[^;];%f;%d" se size for 9 ou "%256[^;];%256[^;];%f;%d" se size for 16.
 
     int current_test = 0;
     while (fgets(buffer, sizeof(buffer), fp)) {
         //Usa sscanf para extrair os dados da linha. Formato: [^;] significa "leia tudo ATÉ um ';'"
-        int items = sscanf(buffer, sscanf_format, puzzle_str, solution_str, &difficulty);
+        int items = sscanf(buffer, sscanf_format, puzzle_str, solution_str, &difficulty, &num_tips);
         //printf("items: %d\n", items);
         
-        if (items == 3) {
+        if (items == 4) {
             //Aloca memória para o puzzle e a solução
             tests[current_test].puzzle = (int**) malloc(size * sizeof(int*));
             tests[current_test].solution = (int**) malloc(size * sizeof(int*));
@@ -131,13 +161,30 @@ int load_test_cases(TestCase** test_cases_ptr, int size) {
             string_to_grid(puzzle_str, size, tests[current_test].puzzle);
             string_to_grid(solution_str, size, tests[current_test].solution);
             tests[current_test].difficulty = difficulty;
+            tests[current_test].num_tips = num_tips;
             current_test++;
             //printf("Dificuldade: %f", difficulty);
         }
     }
 
     fclose(fp);
-    return test_count;
+
+    //Se nenhum teste válido foi carregado, libera a memória alocada e retorna 0
+    if (current_test == 0) {
+        free(*test_cases_ptr);
+        *test_cases_ptr = NULL;
+        return 0;
+    }
+
+    //Se o número de testes válidos for menor que o número de linhas contadas, reduz o bloco alocado para economizar memória
+    if (current_test < test_count) {
+        TestCase* shrunk = (TestCase*) realloc(*test_cases_ptr, current_test * sizeof(TestCase));
+        if (shrunk != NULL) {
+            *test_cases_ptr = shrunk;
+        }
+    }
+
+    return current_test;
 }
 
 void deallocate_test_cases_and_solution(int size, int **solution_grid, TestCase* test_cases, int num_tests) {
@@ -160,13 +207,10 @@ const char *get_difficulty_label(float difficulty) {
     if (difficulty < 2.0) {
         return "Facil";
     } 
-    else if (difficulty < 4.0) {
+    else if (difficulty < 5.0) {
         return "Medio";
     } 
-    else if (difficulty < 7.0) {
-        return "Dificil";
-    }
     else {
-        return "Extremo";
+        return "Dificil";
     }
 }

@@ -4,13 +4,14 @@
 // --- Defines Globais ---
 //#define SIZE 9
 //#define GRID_CHARS (SIZE*SIZE)
-#define FILENAME "sudoku_test_set_9x9.txt" //Nome do arquivo com os casos de teste
+#define FILENAME "sudoku_test_set_16x16.txt" //Nome do arquivo com os casos de teste
 
 // --- Estruturas Globais ---
 typedef struct {
     int **puzzle;
     int **solution;
     float difficulty;
+    int num_tips;
 } TestCase;
 
 
@@ -19,7 +20,7 @@ typedef struct {
 // Funções do solver
 void print_grid(int **grid, int size);
 
-int find_empty_cell(int **grid, int size, int *row, int *col);
+int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col);
 
 int is_valid(int **grid, int size, int size_sub_grid, int row, int col, int num);
 

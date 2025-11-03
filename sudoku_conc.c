@@ -7,8 +7,8 @@
 #include <time.h>
 
 // Define o tamanho do grid
-#define SIZE 9
-#define SUBGRID_SIZE 3
+#define SIZE 16
+#define SUBGRID_SIZE 4
 //#define LOG_RESULTS   //Comentar para desativar o log dos resultados detalhados
 
 //Structs e Variáveis Globais
@@ -43,7 +43,7 @@ int solve_sudoku(int **grid, int size, int size_sub_grid) {
         return 0;     //Para este ramo da recursão, já que alguém já ganhou
     }
 
-    if (!find_empty_cell(grid, size, &row, &col)) {
+    if (!find_empty_cell(grid, size, size_sub_grid, &row, &col)) {
         return 1;   //Se não há células vazias, o Sudoku está resolvido (sucesso)
     }
 
@@ -86,26 +86,6 @@ void* solver_thread_func(void* arg) {
         pthread_mutex_unlock(&solution_mutex);
     }
 
-/*
-    // Obter o tempo atual em segundos desde a Época
-    time(&segundos_desde_epoca);
-    //printf("Tempo em segundos: %ld\n", (long)segundos_desde_epoca);
-
-    // Converter para uma estrutura local (struct tm)
-    tempo_local = localtime(&segundos_desde_epoca);
-
-    // Imprimir os componentes da data e hora
-    printf("Data e hora atuais: %02d/%02d/%d %02d:%02d:%02d\n",
-           tempo_local->tm_mday,
-           tempo_local->tm_mon + 1, // tm_mon vai de 0 a 11
-           tempo_local->tm_year + 1900, // tm_year é anos desde 1900
-           tempo_local->tm_hour,
-           tempo_local->tm_min,
-           tempo_local->tm_sec
-           );
-*/
-
-
     //Liberando a memória alocada para esta thread
     if (data->grid) {
         for (int r = 0; r < data->size; r++) free(data->grid[r]);
@@ -120,7 +100,6 @@ void* solver_thread_func(void* arg) {
 //Função main
 int main() {
     double start, end, delta;   //Variáveis para controle de tempo
-    double acceleration_factor = 0.0, efficiency = 0.0;
 
     int **immutable_puzzle_grid = (int **) malloc(SIZE * sizeof(int *));   //É necessária uma cópia imutável do grid inicial para utilizar o is_valid
     if (immutable_puzzle_grid == NULL) { return 1; }
@@ -169,8 +148,16 @@ int main() {
     }
     
     //Variáveis para estatísticas dos resultados
-    double avg_time_total = 0.0, avg_time_easy = 0.0, avg_time_medium = 0.0, avg_time_hard = 0.0, avg_time_extreme = 0.0;
-    int corrects = 0, count_easy = 0, count_medium = 0, count_hard = 0, count_extreme = 0;
+    double total_time = 0.0, total_time_easy = 0.0, total_time_medium = 0.0, total_time_hard = 0.0;
+    int corrects = 0, count_easy = 0, count_medium = 0, count_hard = 0;
+
+    //Agrupamento por número de threads criadas:
+    double total_time_by_threads[SIZE];
+    int count_by_threads[SIZE];
+    for (int i = 0; i < SIZE; i++) {
+        total_time_by_threads[i] = 0.0;
+        count_by_threads[i] = 0;
+    }
 
     for (int test_index = 0; test_index < num_tests; test_index++) {
         printf("\n--- Teste de Indice %d (Concorrente) ---\n", test_index + 1);
@@ -194,10 +181,10 @@ int main() {
 
         GET_TIME(start);
 
-        if (!find_empty_cell(solution_grid, SIZE, &row, &col)) {
+        if (!find_empty_cell(solution_grid, SIZE, SUBGRID_SIZE, &row, &col)) {
             printf("Grid inicial já está resolvido.\n");
             solution_found = 1;
-            corrects++;
+            // não incrementa `corrects` aqui — será feito apenas após is_correct abaixo
         }
         else{
             pthread_t threads[SIZE];   //Array para guardar os IDs das threads
@@ -265,18 +252,23 @@ int main() {
 
         if (strcmp(get_difficulty_label(all_tests[test_index].difficulty), "Facil") == 0) {
             count_easy++;
-            avg_time_easy += delta;
+            total_time_easy += delta;
         } else if (strcmp(get_difficulty_label(all_tests[test_index].difficulty), "Medio") == 0) {
             count_medium++;
-            avg_time_medium += delta;
+            total_time_medium += delta;
         } else if (strcmp(get_difficulty_label(all_tests[test_index].difficulty), "Dificil") == 0) {
             count_hard++;
-            avg_time_hard += delta;
-        } else if (strcmp(get_difficulty_label(all_tests[test_index].difficulty), "Extremo") == 0) {
-            count_extreme++;
-            avg_time_extreme += delta;
+            total_time_hard += delta;
         }
-        avg_time_total += delta;
+        total_time += delta;
+
+        // Acumula estatísticas por número de threads
+        if (thread_count > 0) {
+            if (thread_count <= SIZE) {
+                total_time_by_threads[thread_count - 1] += delta;
+                count_by_threads[thread_count - 1]++;
+            }
+        }
 
         //Verifica a corretude
         if (is_correct(SIZE, solution_grid, all_tests[test_index].solution)){
@@ -306,71 +298,92 @@ int main() {
 
     printf("\n--- Estatísticas de Desempenho ---\n");
     printf("Solucoes corretas: %d de %d\n", corrects, num_tests);
-    printf("Tempo total: %.9f segundos\n", avg_time_total);
-    printf("Tempo médio total: %.9f segundos\n", avg_time_total / num_tests);
+    printf("Tempo total: %.9f segundos\n", total_time);
+    printf("Tempo médio total: %.9f segundos\n", total_time / num_tests);
     if (count_easy > 0)
-        printf("Tempo médio (Fácil): %.9f segundos\n", avg_time_easy / count_easy);
+        printf("Tempo médio (Fácil): %.9f segundos\n", total_time_easy / count_easy);
     if (count_medium > 0)
-        printf("Tempo médio (Médio): %.9f segundos\n", avg_time_medium / count_medium);
+        printf("Tempo médio (Médio): %.9f segundos\n", total_time_medium / count_medium);
     if (count_hard > 0)
-        printf("Tempo médio (Difícil): %.9f segundos\n", avg_time_hard / count_hard);
-    if (count_extreme > 0)
-        printf("Tempo médio (Extremo): %.9f segundos\n", avg_time_extreme / count_extreme);
+        printf("Tempo médio (Difícil): %.9f segundos\n", total_time_hard / count_hard);
     
+    // Agrupamento por número de threads
+    printf("\nAgrupando por numero de threads criadas\n");
+    for (int i = 0; i < SIZE; i++) {
+        if (count_by_threads[i] != 0) {
+            printf("Tempo médio (%d thread(s) criadas): %.9f segundos\n", i + 1, total_time_by_threads[i] / count_by_threads[i]);
+        }
+    }
 
-    /*
-    printf("\n--- Cálculo de Aceleração (Speedup) e Eficiência ---\n");
-
-    double seq_avg_times[4];   //seq_avg_times[0]=easy, [1]=medium, [2]=hard, [3]=extreme
-
-    FILE *f_in_bin = fopen("seq_results.bin", "rb"); // "rb" = Read Binary
+    printf("\n--- Cálculo de Aceleração e Eficiência ---\n");
+    //Lendo os tempos sequenciais do arquivo binário
+    double seq_avg_times[SIZE + 4];   //[0..SIZE-1]=chutes, [SIZE]=fácil, [SIZE+1]=médio, [SIZE+2]=difícil, [SIZE+3]=total
+    
+    FILE *f_in_bin = fopen("seq_results.bin", "rb");
     if (f_in_bin == NULL) {
         printf("Erro: Arquivo 'seq_results.bin' nao encontrado\nExecute a versao sequencial primeiro para gerar o arquivo com resultados\n");
     } 
     else {
-        //Ler os 4 doubles do arquivo binário
-        size_t items_read = fread(seq_avg_times, sizeof(double), 4, f_in_bin);
+        size_t items_read = fread(seq_avg_times, sizeof(double), SIZE + 4, f_in_bin);
         fclose(f_in_bin);
-
-        if (items_read != 4) {
+        
+        if (items_read != SIZE + 4) {
             printf("Erro: Arquivo 'seq_results.bin' está corrompido ou incompleto.\n");
-        } 
+        }
         else {
-            printf("| Categoria | Speedup (Ts / Tp) | Threads (N) | Eficiência (S / N) |\n");
-            printf("|-----------|-------------------|-------------|--------------------|\n");
-
-            //Calcular usando os valores do array 'seq_avg_times'
-            if (count_easy > 0) {
-                double conc_easy = avg_time_easy / count_easy;
-                double n_easy = (double)total_threads_easy / count_easy;
-                double acceleration = seq_avg_times[0] / conc_easy;
-                double efficiency = acceleration / n_easy;
-                printf("| Fácil     | %-17.2f | %-11.2f | %-18.2f%% |\n", speedup, n_easy, efficiency * 100);
+            double ts = seq_avg_times[SIZE + 3];  // tempo sequencial médio total
+            
+            printf("\nComparando tempos médios totais:\n");
+            printf("Tempo sequencial (Ts): %.9f segundos\n", ts);
+            printf("╔═══════════╦════════════════╦═══════════╦════════════════╗\n");
+            printf("║ Threads   ║ Tp (segundos)  ║ Speedup   ║ Eficiência     ║\n");
+            printf("╠═══════════╬════════════════╬═══════════╬════════════════╣\n");
+            
+            for (int i = 0; i < SIZE; i++) {
+                if (count_by_threads[i] > 0) {
+                    double tp = total_time_by_threads[i] / count_by_threads[i];
+                    double speedup = ts / tp;
+                    double efficiency = speedup / (i + 1);  // i+1 threads
+                    printf("║ %-9d ║ %-12.6f ║ %-9.2f ║ %-12.2f%% ║\n",
+                           i + 1, tp, speedup, efficiency * 100.0);
+                }
             }
-            if (count_medium > 0) {
-                double tp_medium = avg_time_medium / count_medium;
-                double n_medium = (double)total_threads_medium / count_medium;
-                double speedup = ts_times[1] / tp_medium; // Lê do array
-                double efficiency = speedup / n_medium;
-                printf("| Médio     | %-17.2f | %-11.2f | %-18.2f%% |\n", speedup, n_medium, efficiency * 100);
+            printf("╚═══════════╩════════════════╩═══════════╩════════════════╝\n");
+            
+            printf("\nComparando por dificuldade:\n");
+            printf("╔═══════════╦═══════════╦════════════════╦═══════════╦════════════════╗\n");
+            printf("║ Categoria ║ Threads   ║ Tp (segundos)  ║ Speedup   ║ Eficiência     ║\n");
+            printf("╠═══════════╬═══════════╬════════════════╬═══════════╬════════════════╣\n");
+            
+            // Para cada dificuldade
+            const char* categories[] = {"Fácil", "Médio", "Difícil"};
+            double ts_by_diff[] = {seq_avg_times[SIZE], seq_avg_times[SIZE + 1], seq_avg_times[SIZE + 2]};
+            int counts[] = {count_easy, count_medium, count_hard};
+            double totals[] = {total_time_easy, total_time_medium, total_time_hard};
+            
+            for (int cat = 0; cat < 3; cat++) {
+                if (counts[cat] > 0) {
+                    double tp_cat = totals[cat] / counts[cat];
+                    double speedup = ts_by_diff[cat] / tp_cat;
+                    // Para eficiência, usamos número médio de threads para esta dificuldade
+                    double avg_threads = 0.0;
+                    int thread_count = 0;
+                    for (int t = 0; t < SIZE; t++) {
+                        if (count_by_threads[t] > 0) {
+                            avg_threads += (t + 1) * count_by_threads[t];
+                            thread_count += count_by_threads[t];
+                        }
+                    }
+                    avg_threads = (thread_count > 0) ? avg_threads / thread_count : 1.0;
+                    
+                    double efficiency = speedup / avg_threads;
+                    printf("║ %-9s ║ %-9.2f ║ %-12.6f ║ %-9.2f ║ %-12.2f%% ║\n",
+                           categories[cat], avg_threads, tp_cat, speedup, efficiency * 100.0);
+                }
             }
-            if (count_hard > 0) {
-                double tp_hard = avg_time_hard / count_hard;
-                double n_hard = (double)total_threads_hard / count_hard;
-                double speedup = ts_times[2] / tp_hard; // Lê do array
-                double efficiency = speedup / n_hard;
-                printf("| Difícil   | %-17.2f | %-11.2f | %-18.2f%% |\n", speedup, n_hard, efficiency * 100);
-            }
-            if (count_extreme > 0) {
-                double tp_extreme = avg_time_extreme / count_extreme;
-                double n_extreme = (double)total_threads_extreme / count_extreme;
-                double speedup = ts_times[3] / tp_extreme; // Lê do array
-                double efficiency = speedup / n_extreme;
-                printf("| Extremo   | %-17.2f | %-11.2f | %-18.2f%% |\n", speedup, n_extreme, efficiency * 100);
-            }
+            printf("╚═══════════╩═══════════╩════════════════╩═══════════╩════════════════╝\n");
         }
     }
-    */
 
     // Destrói o mutex e desaloca memória
     pthread_mutex_destroy(&solution_mutex);
