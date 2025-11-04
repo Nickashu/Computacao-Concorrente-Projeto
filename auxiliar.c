@@ -78,6 +78,90 @@ int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col)
 }
 */
 
+int count_empty_cells(int **grid, int size){
+    int result = 0;
+    for (int i = 0 ; i<size ; i++){
+        for (int j = 0 ; j<size ; j++){
+            if (grid [i][j] == 0){
+                result++;
+            }
+        }
+    }
+    return result;
+}
+
+Possibilities* find_all_possibilities(int **grid, int size, int size_sub_grid){
+    Possibilities *result = malloc(sizeof(Possibilities));
+    int cell_possibilities = 0;
+    int min = size + 1;
+    int k = 1;
+    for (int i = 0 ; i<size ; i++){//cada linha
+        for (int j = 0 ; j<size ; j++){//cada coluna
+            cell_possibilities = 0;
+            if (grid[i][j] == 0){//checa se a célula está vazia.
+                for (k = 0; k < size ; k++){//cada digito possível
+                    if (is_valid(grid, size, size_sub_grid, i, j, k + 1)){
+                        result->grid[i][j][k] = true;
+                        cell_possibilities++;
+                    }
+                    else {
+                        result->grid[i][j][k] = false;
+                    }
+                }
+                if (cell_possibilities < min){//controla as informações auxiliares da struct.
+                    min = cell_possibilities;
+                    result->min_possibilities = min;
+                    result->min_cell[0] = i;
+                    result->min_cell[1] = j;
+                }
+            }
+            
+            else { //preenche a célula inteira com 0 se ela já está preenchida na grid original.
+                for (k = 0 ; k < size ; k++){
+                    result->grid[i][j][k] = false;
+                }
+            }
+        }
+    }
+    return result;
+}
+
+void change_possibilities(int **grid, int size, int size_sub_grid, int row, int col, int num, Possibilities *poss){
+    int sub_grid_row = (row)/size_sub_grid;
+    int sub_grid_col = (col)/size_sub_grid;
+    int min = size + 1;
+    int count = 0;
+    for (int i = 0 ; i < size/size_sub_grid ; i++){ //muda na subgrid
+        for (int j = 0 ; j < size/size_sub_grid ; j++){
+            poss->grid[i + sub_grid_row*size_sub_grid][j + sub_grid_col*size_sub_grid][num - 1] = false;
+        }
+    }
+    for (int i = 0 ; i < size ; i++){ //muda tanto na linha quanto na coluna quanto na célula
+        poss->grid[i][col][num - 1] = false;
+        poss->grid[row][i][num - 1] = false;
+        poss->grid[row][col][i] = false;
+    }
+    for (int i = 0 ; i < size ; i++){
+        for (int j = 0 ; j < size ; j ++){
+            count = 0;
+            if (grid[i][j] == 0){//muda as informações sobre a célula mínima.
+                for (int k = 0 ; k < size ; k ++) {
+                    if (poss->grid[i][j][k] == true){
+                        count++;
+                    }
+                }
+                if (count < min){
+                    min = count;
+                    poss->min_possibilities = min;
+                    poss->min_cell[0] = i;
+                    poss->min_cell[1] = j;
+                }        
+            }
+        }
+    }
+}
+
+
 //Verifica se um número é válido em uma dada posição
 int is_valid(int **grid, int size, int size_sub_grid, int row, int col, int num) {
     //Verifica a linha

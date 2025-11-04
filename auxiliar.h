@@ -1,8 +1,10 @@
 #ifndef AUX_H
 #define AUX_H
+#include <stdbool.h>
+#include <string.h>
 
 // --- Defines Globais ---
-//#define SIZE 9
+#define SIZE 9
 //#define GRID_CHARS (SIZE*SIZE)
 #define FILENAME "sudoku_test_set_16x16.txt" //Nome do arquivo com os casos de teste
 
@@ -14,6 +16,12 @@ typedef struct {
     int num_tips;
 } TestCase;
 
+typedef struct {
+    bool grid[SIZE][SIZE][SIZE];//para cada espaço da grid temos 9 possibilitades de cada digito estar presente ou não
+    int min_cell[2];//linha e coluna da menor possibilidade
+    int min_possibilities;
+} Possibilities;
+
 
 // --- Protótipos das Funções ---
 
@@ -21,6 +29,12 @@ typedef struct {
 void print_grid(int **grid, int size);
 
 int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col);
+
+int count_empty_cells(int **grid, int size);
+
+Possibilities* find_all_possibilities(int **grid, int size, int size_sub_grid);
+
+void change_possibilities(int **grid, int size, int size_sub_grid, int row, int col, int num, Possibilities *poss);
 
 int is_valid(int **grid, int size, int size_sub_grid, int row, int col, int num);
 
