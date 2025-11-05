@@ -12,7 +12,7 @@ void print_grid(int **grid, int size) {
     }
 }
 
-
+/*
 //Procura por uma célula vazia (valor 0). Retorna 1 se encontrou, 0 se o grid está cheio
 int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col) {
     for (*row = 0; *row < size; (*row)++) {
@@ -23,9 +23,9 @@ int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col)
     }
     return 0;
 }
+*/
 
 
-/*
 //Procura por uma célula vazia (valor 0) usando heurística MRV. Retorna 1 se encontrou, 0 se o grid está cheio
 int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col) {
     int found_empty = 0;
@@ -76,7 +76,7 @@ int find_empty_cell(int **grid, int size, int size_sub_grid, int *row, int *col)
 
     return 1;
 }
-*/
+
 
 int count_empty_cells(int **grid, int size){
     int result = 0;

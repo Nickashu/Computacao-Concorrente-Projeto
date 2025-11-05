@@ -4,9 +4,9 @@
 #include <string.h>
 
 // --- Defines Globais ---
-#define SIZE 9
+#define SIZE2 9
 //#define GRID_CHARS (SIZE*SIZE)
-#define FILENAME "sudoku_test_set_16x16.txt" //Nome do arquivo com os casos de teste
+#define FILENAME "../test_cases/sudoku_test_set_16x16.txt" //Nome do arquivo com os casos de teste
 
 // --- Estruturas Globais ---
 typedef struct {
@@ -17,7 +17,7 @@ typedef struct {
 } TestCase;
 
 typedef struct {
-    bool grid[SIZE][SIZE][SIZE];//para cada espaço da grid temos 9 possibilitades de cada digito estar presente ou não
+    bool grid[SIZE2][SIZE2][SIZE2];//para cada espaço da grid temos 9 possibilitades de cada digito estar presente ou não
     int min_cell[2];//linha e coluna da menor possibilidade
     int min_possibilities;
 } Possibilities;
